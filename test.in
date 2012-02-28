@@ -1,0 +1,43 @@
+title Nebular emission from star forming regions 
+c commands controlling continuum ========= 
+black body, T=40,000K 
+Q(H) = 49 
+c commands for density & abundances ========= 
+hden = 1.5 
+init file="ism.ini" 
+abundances H II region no grains 
+metals 1.0 linear
+c temperature if appropriate
+c constant temperature 4.0
+c inner radius and geometry =============== 
+radius=16.4 
+sphere 
+c stopping criteria ======================= 
+stop temperature 100 
+stop efrac -2 
+c other commands for details ========= 
+iterate 
+c outputs ========================= 
+c Use this to get line labels
+c punch line, labels "test.labels"  
+print line faint -4
+punch overview last "test.ovr" 
+punch results last "test.rlt" 
+punch line,array "test.lines"
+punch cooling "test.coo"
+punch line, emissivity "test.emi"
+Ca B 6563 
+Ca B 4861 
+totl 4861 
+TOTL 4363
+o  3 5007 
+o  3 4959
+o  3 4931
+n  2 6584
+n  2 6548
+n  2 5755
+o ii 3726
+o ii 3729
+s ii 6731
+s ii 6716
+end of lines
