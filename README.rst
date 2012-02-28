@@ -2,7 +2,10 @@
 ISM/IGM Spring 2012 Homework 2
 ==============================
 
-Quickstart::
+Quickstart
+----------------
+::
+
     cd Problem1Data
     cloudy < test.in > test.out
     cd ..
