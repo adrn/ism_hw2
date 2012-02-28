@@ -5,10 +5,10 @@ ISM/IGM Spring 2012 Homework 2
 Quickstart:
 ------------
 ::
-	cd Problem1Data
-	cloudy < test.in > test.out
-	cd ..
-	python problem1.py
+    cd Problem1Data
+    cloudy < test.in > test.out
+    cd ..
+    python problem1.py
 
 
 Misc:
